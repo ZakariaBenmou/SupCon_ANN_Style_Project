@@ -53,5 +53,6 @@ python main.py infer --input img_a.jpg --input path/to/folder --input https://ex
 Tune `--eps` (max cosine distance within a cluster) and `--min-samples` (minimum points to form a dense region) for your image set. Defaults are `eps=0.2`, `min_samples=3`.
 
 ## Model weights
-> <to be added>
+> https://huggingface.co/ZakBenm/SupCon_ANN_Style_Project
+
 Download it into `checkpoints/` if you don't want to test the codebase.
